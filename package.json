@@ -1,5 +1,5 @@
 {
-  "homepage": "https://Shakhzod0222.giyhub.io/Portfolio_reactvite",
+  "homepage": "https://Shakhzod0222.github.io/Portfolio_react",
   "name": "portfolio",
   "private": true,
   "version": "0.0.0",
@@ -9,7 +9,9 @@
     "build": "vite build",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy" : "gh-pages -d dist"
   },
   "dependencies": {
     "animate.css": "^4.1.1",
